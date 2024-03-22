@@ -1,0 +1,53 @@
+{
+    "room_id": "fill in here",
+    "openai_api_key": "fill in here",
+    "uid": "fill in here",
+    "preset_prompts": {
+        "role": "system",
+        "content": "You are a college student majoring in STEM. You talk briefly. You hate POLITICS!!!"
+    },
+    "bili_cookies": [
+        {
+            "name": "DedeUserID",
+            "value": "fill in here",
+            "domain": ".bilibili.com",
+            "path": "/"
+        },
+        {
+            "name": "DedeUserID__ckMd5",
+            "value": "fill in here",
+            "domain": ".bilibili.com",
+            "path": "/"
+        },
+        {
+            "name": "SESSDATA",
+            "value": "fill in here",
+            "domain": ".bilibili.com",
+            "path": "/"
+        },
+        {
+            "name": "bili_jct",
+            "value": "fill in here",
+            "domain": ".bilibili.com",
+            "path": "/"
+        },
+        {
+            "name": "buvid3",
+            "value": "fill in here",
+            "domain": ".bilibili.com",
+            "path": "/"
+        },
+        {
+            "name": "buvid4",
+            "value": "fill in here",
+            "domain": ".bilibili.com",
+            "path": "/"
+        },
+        {
+            "name": "LIVE_BUVID",
+            "value": "fill in here",
+            "domain": ".bilibili.com",
+            "path": "/"
+        }
+    ]
+}

@@ -1,0 +1,240 @@
+[1710922401.571][INFO]: Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 50531
+[1710922401.571][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1710922402.064][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless", "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" ],
+            "detach": true,
+            "excludeSwitches": [ "enable-automation" ],
+            "extensions": [  ],
+            "prefs": {
+               "profile.default_content_setting_values": {
+                  "css": 2,
+                  "images": 2
+               }
+            },
+            "useAutomationExtension": false
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1710922402.064][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1710922402.064][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1710922402.069][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "css": 2,
+         "images": 2
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1710922402.069][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1710922402.072][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --headless --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" --user-data-dir="C:\Users\xiaokong\AppData\Local\Temp\scoped_dir5372_569331963" data:,
+[1710922402.619][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1710922402.736][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "114.0.5735.199",
+      "chrome": {
+         "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
+         "userDataDir": "C:\\Users\\xiaokong\\AppData\\Local\\Temp\\scoped_dir5372_569331963"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50535"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7c18ada92717fc7a7efaa652ddeb5e72"
+}
+[1710922402.739][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND Navigate {
+   "url": "https://live.bilibili.com/32261796"
+}
+[1710922402.739][INFO]: Waiting for pending navigations...
+[1710922402.741][INFO]: Done waiting for pending navigations. Status: ok
+[1710922403.272][INFO]: Waiting for pending navigations...
+[1710922435.245][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.245][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE Navigate
+[1710922435.248][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".bilibili.com",
+      "name": "DedeUserID",
+      "path": "/",
+      "value": "677407721"
+   }
+}
+[1710922435.248][INFO]: Waiting for pending navigations...
+[1710922435.249][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.253][INFO]: Waiting for pending navigations...
+[1710922435.254][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.254][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE AddCookie
+[1710922435.258][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".bilibili.com",
+      "name": "DedeUserID__ckMd5",
+      "path": "/",
+      "value": "bb88c4178bd38aa8"
+   }
+}
+[1710922435.258][INFO]: Waiting for pending navigations...
+[1710922435.259][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.262][INFO]: Waiting for pending navigations...
+[1710922435.262][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.262][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE AddCookie
+[1710922435.264][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".bilibili.com",
+      "name": "SESSDATA",
+      "path": "/",
+      "value": "e6d26b25%2C1726416366%2C56ce8%2A31"
+   }
+}
+[1710922435.264][INFO]: Waiting for pending navigations...
+[1710922435.265][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.267][INFO]: Waiting for pending navigations...
+[1710922435.268][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.268][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE AddCookie
+[1710922435.270][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".bilibili.com",
+      "name": "bili_jct",
+      "path": "/",
+      "value": "51d3c4453c2b78a3bb97060feebc4bcc"
+   }
+}
+[1710922435.270][INFO]: Waiting for pending navigations...
+[1710922435.271][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.277][INFO]: Waiting for pending navigations...
+[1710922435.289][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.289][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE AddCookie
+[1710922435.295][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".bilibili.com",
+      "name": "buvid3",
+      "path": "/",
+      "value": "CE133A4A-E1F3-CA9C-9018-58F18377A54248640infoc"
+   }
+}
+[1710922435.295][INFO]: Waiting for pending navigations...
+[1710922435.314][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.339][INFO]: Waiting for pending navigations...
+[1710922435.339][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.339][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE AddCookie
+[1710922435.344][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".bilibili.com",
+      "name": "buvid4",
+      "path": "/",
+      "value": "4CEFAB5E-33B6-39D8-D66A-2D038022EC7149607-023101816-AIcER9AVGUvpO5KgqBlhmA%3D%3D"
+   }
+}
+[1710922435.344][INFO]: Waiting for pending navigations...
+[1710922435.344][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.347][INFO]: Waiting for pending navigations...
+[1710922435.348][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.348][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE AddCookie
+[1710922435.349][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".bilibili.com",
+      "name": "LIVE_BUVID",
+      "path": "/",
+      "value": "AUTO2117104627183194"
+   }
+}
+[1710922435.349][INFO]: Waiting for pending navigations...
+[1710922435.350][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.353][INFO]: Waiting for pending navigations...
+[1710922435.354][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.354][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE AddCookie
+[1710922435.358][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND Refresh {
+}
+[1710922435.358][INFO]: Waiting for pending navigations...
+[1710922435.359][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.360][INFO]: Waiting for pending navigations...
+[1710922435.368][INFO]: Done waiting for pending navigations. Status: ok
+[1710922435.368][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE Refresh
+[1710922435.371][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] COMMAND Navigate {
+   "url": "https://live.bilibili.com/32261796"
+}
+[1710922435.371][INFO]: Waiting for pending navigations...
+[1710922438.196][INFO]: Done waiting for pending navigations. Status: ok
+[1710922438.421][INFO]: Waiting for pending navigations...
+[1710922440.433][INFO]: Done waiting for pending navigations. Status: ok
+[1710922440.433][INFO]: [7c18ada92717fc7a7efaa652ddeb5e72] RESPONSE Navigate

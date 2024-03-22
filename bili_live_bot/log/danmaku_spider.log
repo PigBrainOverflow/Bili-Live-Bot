@@ -1,0 +1,848 @@
+[1710922400.305][INFO]: Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 50523
+[1710922400.306][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1710922400.803][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "browserVersion": null,
+         "goog:chromeOptions": {
+            "args": [ "--headless", "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ],
+            "prefs": {
+               "profile.default_content_setting_values": {
+                  "css": 2,
+                  "images": 2
+               }
+            }
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1710922400.804][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "css": 2,
+         "images": 2
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1710922400.804][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1710922400.807][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --headless --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" --user-data-dir="C:\Users\xiaokong\AppData\Local\Temp\scoped_dir14628_1643362989" data:,
+[1710922401.388][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1710922401.544][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "114.0.5735.199",
+      "chrome": {
+         "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
+         "userDataDir": "C:\\Users\\xiaokong\\AppData\\Local\\Temp\\scoped_dir14628_1643362989"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50526"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "dce5f0bd7f5f7b1fa23b9e515729c462"
+}
+[1710922440.439][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND Navigate {
+   "url": "https://live.bilibili.com/32261796"
+}
+[1710922440.439][INFO]: Waiting for pending navigations...
+[1710922440.442][INFO]: Done waiting for pending navigations. Status: ok
+[1710922441.166][INFO]: Waiting for pending navigations...
+[1710922448.155][INFO]: Done waiting for pending navigations. Status: ok
+[1710922448.155][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE Navigate
+[1710922448.161][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922448.161][INFO]: Waiting for pending navigations...
+[1710922448.162][INFO]: Done waiting for pending navigations. Status: ok
+[1710922448.181][INFO]: Waiting for pending navigations...
+[1710922448.182][INFO]: Done waiting for pending navigations. Status: ok
+[1710922448.182][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922448.185][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922448.186][INFO]: Waiting for pending navigations...
+[1710922448.187][INFO]: Done waiting for pending navigations. Status: ok
+[1710922448.222][INFO]: Waiting for pending navigations...
+[1710922448.224][INFO]: Done waiting for pending navigations. Status: ok
+[1710922448.224][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "马刺新秀文班亚马 :\n我也是 STEM 专业的大学生，数学是我\n马刺新秀文班亚马 :\n喜欢的学科之一。我更喜欢专注于科\n马刺新秀文班亚马 :\nSTEM学科，因�..."
+[1710922448.228][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+   }, "outerHTML" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1710922448.228][INFO]: Waiting for pending navigations...
+[1710922448.232][INFO]: Done waiting for pending navigations. Status: ok
+[1710922448.241][INFO]: Waiting for pending navigations...
+[1710922448.242][INFO]: Done waiting for pending navigations. Status: ok
+[1710922448.242][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE ExecuteScript "\u003Cdiv class=\"chat-items\" id=\"chat-items\">\u003Cdiv class=\"chat-item danmaku-item \" data-uname=\"马刺新秀文班亚马\" data-type=\"0\" data-show_reply=\"true\" data-replymid=\"0\" data-uid=\"677407721\" data-t..."
+[1710922450.263][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922450.263][INFO]: Waiting for pending navigations...
+[1710922450.264][INFO]: Done waiting for pending navigations. Status: ok
+[1710922450.275][INFO]: Waiting for pending navigations...
+[1710922450.276][INFO]: Done waiting for pending navigations. Status: ok
+[1710922450.276][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922450.278][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922450.278][INFO]: Waiting for pending navigations...
+[1710922450.279][INFO]: Done waiting for pending navigations. Status: ok
+[1710922450.304][INFO]: Waiting for pending navigations...
+[1710922450.305][INFO]: Done waiting for pending navigations. Status: ok
+[1710922450.305][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922450.307][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+   }, "outerHTML" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1710922450.307][INFO]: Waiting for pending navigations...
+[1710922450.308][INFO]: Done waiting for pending navigations. Status: ok
+[1710922450.314][INFO]: Waiting for pending navigations...
+[1710922450.315][INFO]: Done waiting for pending navigations. Status: ok
+[1710922450.315][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE ExecuteScript "\u003Cdiv class=\"chat-items\" id=\"chat-items\">\u003Cdiv class=\"chat-item danmaku-item \" data-uname=\"马刺新秀文班亚马\" data-type=\"0\" data-show_reply=\"true\" data-replymid=\"0\" data-uid=\"677407721\" data-t..."
+[1710922452.330][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922452.330][INFO]: Waiting for pending navigations...
+[1710922452.331][INFO]: Done waiting for pending navigations. Status: ok
+[1710922452.340][INFO]: Waiting for pending navigations...
+[1710922452.341][INFO]: Done waiting for pending navigations. Status: ok
+[1710922452.341][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922452.342][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922452.343][INFO]: Waiting for pending navigations...
+[1710922452.344][INFO]: Done waiting for pending navigations. Status: ok
+[1710922452.368][INFO]: Waiting for pending navigations...
+[1710922452.369][INFO]: Done waiting for pending navigations. Status: ok
+[1710922452.369][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922454.374][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922454.374][INFO]: Waiting for pending navigations...
+[1710922454.375][INFO]: Done waiting for pending navigations. Status: ok
+[1710922454.386][INFO]: Waiting for pending navigations...
+[1710922454.388][INFO]: Done waiting for pending navigations. Status: ok
+[1710922454.388][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922454.390][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922454.390][INFO]: Waiting for pending navigations...
+[1710922454.391][INFO]: Done waiting for pending navigations. Status: ok
+[1710922454.414][INFO]: Waiting for pending navigations...
+[1710922454.416][INFO]: Done waiting for pending navigations. Status: ok
+[1710922454.416][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922456.434][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922456.434][INFO]: Waiting for pending navigations...
+[1710922456.435][INFO]: Done waiting for pending navigations. Status: ok
+[1710922456.444][INFO]: Waiting for pending navigations...
+[1710922456.445][INFO]: Done waiting for pending navigations. Status: ok
+[1710922456.445][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922456.447][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922456.447][INFO]: Waiting for pending navigations...
+[1710922456.449][INFO]: Done waiting for pending navigations. Status: ok
+[1710922456.475][INFO]: Waiting for pending navigations...
+[1710922456.477][INFO]: Done waiting for pending navigations. Status: ok
+[1710922456.477][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922458.491][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922458.491][INFO]: Waiting for pending navigations...
+[1710922458.492][INFO]: Done waiting for pending navigations. Status: ok
+[1710922458.501][INFO]: Waiting for pending navigations...
+[1710922458.502][INFO]: Done waiting for pending navigations. Status: ok
+[1710922458.502][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922458.504][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922458.504][INFO]: Waiting for pending navigations...
+[1710922458.505][INFO]: Done waiting for pending navigations. Status: ok
+[1710922458.530][INFO]: Waiting for pending navigations...
+[1710922458.532][INFO]: Done waiting for pending navigations. Status: ok
+[1710922458.532][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922460.550][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922460.550][INFO]: Waiting for pending navigations...
+[1710922460.551][INFO]: Done waiting for pending navigations. Status: ok
+[1710922460.558][INFO]: Waiting for pending navigations...
+[1710922460.559][INFO]: Done waiting for pending navigations. Status: ok
+[1710922460.559][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922460.561][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922460.561][INFO]: Waiting for pending navigations...
+[1710922460.562][INFO]: Done waiting for pending navigations. Status: ok
+[1710922460.581][INFO]: Waiting for pending navigations...
+[1710922460.582][INFO]: Done waiting for pending navigations. Status: ok
+[1710922460.582][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922462.598][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922462.598][INFO]: Waiting for pending navigations...
+[1710922462.599][INFO]: Done waiting for pending navigations. Status: ok
+[1710922462.607][INFO]: Waiting for pending navigations...
+[1710922462.607][INFO]: Done waiting for pending navigations. Status: ok
+[1710922462.607][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922462.609][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922462.609][INFO]: Waiting for pending navigations...
+[1710922462.609][INFO]: Done waiting for pending navigations. Status: ok
+[1710922462.629][INFO]: Waiting for pending navigations...
+[1710922462.630][INFO]: Done waiting for pending navigations. Status: ok
+[1710922462.630][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922464.647][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922464.647][INFO]: Waiting for pending navigations...
+[1710922464.649][INFO]: Done waiting for pending navigations. Status: ok
+[1710922464.657][INFO]: Waiting for pending navigations...
+[1710922464.657][INFO]: Done waiting for pending navigations. Status: ok
+[1710922464.657][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922464.659][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922464.659][INFO]: Waiting for pending navigations...
+[1710922464.660][INFO]: Done waiting for pending navigations. Status: ok
+[1710922464.680][INFO]: Waiting for pending navigations...
+[1710922464.681][INFO]: Done waiting for pending navigations. Status: ok
+[1710922464.681][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922466.689][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922466.689][INFO]: Waiting for pending navigations...
+[1710922466.690][INFO]: Done waiting for pending navigations. Status: ok
+[1710922466.698][INFO]: Waiting for pending navigations...
+[1710922466.698][INFO]: Done waiting for pending navigations. Status: ok
+[1710922466.698][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922466.701][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922466.701][INFO]: Waiting for pending navigations...
+[1710922466.701][INFO]: Done waiting for pending navigations. Status: ok
+[1710922466.732][INFO]: Waiting for pending navigations...
+[1710922466.733][INFO]: Done waiting for pending navigations. Status: ok
+[1710922466.733][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922468.743][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922468.744][INFO]: Waiting for pending navigations...
+[1710922468.745][INFO]: Done waiting for pending navigations. Status: ok
+[1710922468.751][INFO]: Waiting for pending navigations...
+[1710922468.753][INFO]: Done waiting for pending navigations. Status: ok
+[1710922468.753][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922468.754][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922468.754][INFO]: Waiting for pending navigations...
+[1710922468.755][INFO]: Done waiting for pending navigations. Status: ok
+[1710922468.773][INFO]: Waiting for pending navigations...
+[1710922468.775][INFO]: Done waiting for pending navigations. Status: ok
+[1710922468.775][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922470.790][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922470.790][INFO]: Waiting for pending navigations...
+[1710922470.791][INFO]: Done waiting for pending navigations. Status: ok
+[1710922470.798][INFO]: Waiting for pending navigations...
+[1710922470.799][INFO]: Done waiting for pending navigations. Status: ok
+[1710922470.799][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922470.800][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922470.800][INFO]: Waiting for pending navigations...
+[1710922470.801][INFO]: Done waiting for pending navigations. Status: ok
+[1710922470.820][INFO]: Waiting for pending navigations...
+[1710922470.821][INFO]: Done waiting for pending navigations. Status: ok
+[1710922470.821][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922472.831][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922472.831][INFO]: Waiting for pending navigations...
+[1710922472.833][INFO]: Done waiting for pending navigations. Status: ok
+[1710922472.840][INFO]: Waiting for pending navigations...
+[1710922472.841][INFO]: Done waiting for pending navigations. Status: ok
+[1710922472.841][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922472.842][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922472.842][INFO]: Waiting for pending navigations...
+[1710922472.843][INFO]: Done waiting for pending navigations. Status: ok
+[1710922472.862][INFO]: Waiting for pending navigations...
+[1710922472.863][INFO]: Done waiting for pending navigations. Status: ok
+[1710922472.863][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922474.867][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922474.867][INFO]: Waiting for pending navigations...
+[1710922474.868][INFO]: Done waiting for pending navigations. Status: ok
+[1710922474.876][INFO]: Waiting for pending navigations...
+[1710922474.876][INFO]: Done waiting for pending navigations. Status: ok
+[1710922474.877][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922474.878][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922474.878][INFO]: Waiting for pending navigations...
+[1710922474.879][INFO]: Done waiting for pending navigations. Status: ok
+[1710922474.899][INFO]: Waiting for pending navigations...
+[1710922474.900][INFO]: Done waiting for pending navigations. Status: ok
+[1710922474.901][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922476.906][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922476.906][INFO]: Waiting for pending navigations...
+[1710922476.907][INFO]: Done waiting for pending navigations. Status: ok
+[1710922476.914][INFO]: Waiting for pending navigations...
+[1710922476.915][INFO]: Done waiting for pending navigations. Status: ok
+[1710922476.915][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922476.917][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922476.917][INFO]: Waiting for pending navigations...
+[1710922476.917][INFO]: Done waiting for pending navigations. Status: ok
+[1710922476.935][INFO]: Waiting for pending navigations...
+[1710922476.938][INFO]: Done waiting for pending navigations. Status: ok
+[1710922476.938][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922478.956][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922478.956][INFO]: Waiting for pending navigations...
+[1710922478.957][INFO]: Done waiting for pending navigations. Status: ok
+[1710922478.964][INFO]: Waiting for pending navigations...
+[1710922478.965][INFO]: Done waiting for pending navigations. Status: ok
+[1710922478.965][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922478.967][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922478.967][INFO]: Waiting for pending navigations...
+[1710922478.968][INFO]: Done waiting for pending navigations. Status: ok
+[1710922478.988][INFO]: Waiting for pending navigations...
+[1710922478.990][INFO]: Done waiting for pending navigations. Status: ok
+[1710922478.990][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922481.006][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922481.006][INFO]: Waiting for pending navigations...
+[1710922481.007][INFO]: Done waiting for pending navigations. Status: ok
+[1710922481.014][INFO]: Waiting for pending navigations...
+[1710922481.015][INFO]: Done waiting for pending navigations. Status: ok
+[1710922481.015][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922481.017][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922481.017][INFO]: Waiting for pending navigations...
+[1710922481.017][INFO]: Done waiting for pending navigations. Status: ok
+[1710922481.037][INFO]: Waiting for pending navigations...
+[1710922481.039][INFO]: Done waiting for pending navigations. Status: ok
+[1710922481.039][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922483.056][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922483.057][INFO]: Waiting for pending navigations...
+[1710922483.057][INFO]: Done waiting for pending navigations. Status: ok
+[1710922483.065][INFO]: Waiting for pending navigations...
+[1710922483.066][INFO]: Done waiting for pending navigations. Status: ok
+[1710922483.066][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922483.068][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922483.068][INFO]: Waiting for pending navigations...
+[1710922483.069][INFO]: Done waiting for pending navigations. Status: ok
+[1710922483.089][INFO]: Waiting for pending navigations...
+[1710922483.089][INFO]: Done waiting for pending navigations. Status: ok
+[1710922483.089][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922485.097][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922485.097][INFO]: Waiting for pending navigations...
+[1710922485.098][INFO]: Done waiting for pending navigations. Status: ok
+[1710922485.106][INFO]: Waiting for pending navigations...
+[1710922485.107][INFO]: Done waiting for pending navigations. Status: ok
+[1710922485.107][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922485.108][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922485.108][INFO]: Waiting for pending navigations...
+[1710922485.109][INFO]: Done waiting for pending navigations. Status: ok
+[1710922485.129][INFO]: Waiting for pending navigations...
+[1710922485.131][INFO]: Done waiting for pending navigations. Status: ok
+[1710922485.131][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922487.142][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922487.142][INFO]: Waiting for pending navigations...
+[1710922487.143][INFO]: Done waiting for pending navigations. Status: ok
+[1710922487.151][INFO]: Waiting for pending navigations...
+[1710922487.152][INFO]: Done waiting for pending navigations. Status: ok
+[1710922487.152][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922487.154][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922487.154][INFO]: Waiting for pending navigations...
+[1710922487.154][INFO]: Done waiting for pending navigations. Status: ok
+[1710922487.174][INFO]: Waiting for pending navigations...
+[1710922487.175][INFO]: Done waiting for pending navigations. Status: ok
+[1710922487.175][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922489.189][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922489.189][INFO]: Waiting for pending navigations...
+[1710922489.190][INFO]: Done waiting for pending navigations. Status: ok
+[1710922489.198][INFO]: Waiting for pending navigations...
+[1710922489.201][INFO]: Done waiting for pending navigations. Status: ok
+[1710922489.201][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922489.202][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922489.202][INFO]: Waiting for pending navigations...
+[1710922489.203][INFO]: Done waiting for pending navigations. Status: ok
+[1710922489.224][INFO]: Waiting for pending navigations...
+[1710922489.225][INFO]: Done waiting for pending navigations. Status: ok
+[1710922489.225][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922491.238][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922491.238][INFO]: Waiting for pending navigations...
+[1710922491.239][INFO]: Done waiting for pending navigations. Status: ok
+[1710922491.246][INFO]: Waiting for pending navigations...
+[1710922491.247][INFO]: Done waiting for pending navigations. Status: ok
+[1710922491.247][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922491.248][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922491.249][INFO]: Waiting for pending navigations...
+[1710922491.249][INFO]: Done waiting for pending navigations. Status: ok
+[1710922491.269][INFO]: Waiting for pending navigations...
+[1710922491.270][INFO]: Done waiting for pending navigations. Status: ok
+[1710922491.270][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922493.287][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922493.287][INFO]: Waiting for pending navigations...
+[1710922493.287][INFO]: Done waiting for pending navigations. Status: ok
+[1710922493.295][INFO]: Waiting for pending navigations...
+[1710922493.296][INFO]: Done waiting for pending navigations. Status: ok
+[1710922493.296][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922493.297][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922493.297][INFO]: Waiting for pending navigations...
+[1710922493.298][INFO]: Done waiting for pending navigations. Status: ok
+[1710922493.318][INFO]: Waiting for pending navigations...
+[1710922493.319][INFO]: Done waiting for pending navigations. Status: ok
+[1710922493.319][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "STEM学科，因为它们让我充满好奇心\n系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈..."
+[1710922495.331][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922495.331][INFO]: Waiting for pending navigations...
+[1710922495.332][INFO]: Done waiting for pending navigations. Status: ok
+[1710922495.340][INFO]: Waiting for pending navigations...
+[1710922495.341][INFO]: Done waiting for pending navigations. Status: ok
+[1710922495.341][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922495.342][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922495.343][INFO]: Waiting for pending navigations...
+[1710922495.343][INFO]: Done waiting for pending navigations. Status: ok
+[1710922495.364][INFO]: Waiting for pending navigations...
+[1710922495.392][INFO]: Done waiting for pending navigations. Status: ok
+[1710922495.392][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922495.395][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+   }, "outerHTML" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1710922495.395][INFO]: Waiting for pending navigations...
+[1710922495.396][INFO]: Done waiting for pending navigations. Status: ok
+[1710922495.407][INFO]: Waiting for pending navigations...
+[1710922495.408][INFO]: Done waiting for pending navigations. Status: ok
+[1710922495.408][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE ExecuteScript "\u003Cdiv class=\"chat-items\" id=\"chat-items\">\u003Cdiv class=\"chat-item danmaku-item \" data-uname=\"马刺新秀文班亚马\" data-type=\"0\" data-show_reply=\"true\" data-replymid=\"0\" data-uid=\"677407721\" data-t..."
+[1710922497.424][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922497.424][INFO]: Waiting for pending navigations...
+[1710922497.425][INFO]: Done waiting for pending navigations. Status: ok
+[1710922497.432][INFO]: Waiting for pending navigations...
+[1710922497.434][INFO]: Done waiting for pending navigations. Status: ok
+[1710922497.434][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922497.435][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922497.435][INFO]: Waiting for pending navigations...
+[1710922497.436][INFO]: Done waiting for pending navigations. Status: ok
+[1710922497.458][INFO]: Waiting for pending navigations...
+[1710922497.459][INFO]: Done waiting for pending navigations. Status: ok
+[1710922497.459][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922499.477][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922499.477][INFO]: Waiting for pending navigations...
+[1710922499.480][INFO]: Done waiting for pending navigations. Status: ok
+[1710922499.492][INFO]: Waiting for pending navigations...
+[1710922499.493][INFO]: Done waiting for pending navigations. Status: ok
+[1710922499.493][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922499.495][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922499.495][INFO]: Waiting for pending navigations...
+[1710922499.496][INFO]: Done waiting for pending navigations. Status: ok
+[1710922499.518][INFO]: Waiting for pending navigations...
+[1710922499.519][INFO]: Done waiting for pending navigations. Status: ok
+[1710922499.519][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922501.534][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922501.534][INFO]: Waiting for pending navigations...
+[1710922501.534][INFO]: Done waiting for pending navigations. Status: ok
+[1710922501.542][INFO]: Waiting for pending navigations...
+[1710922501.543][INFO]: Done waiting for pending navigations. Status: ok
+[1710922501.543][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922501.544][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922501.545][INFO]: Waiting for pending navigations...
+[1710922501.545][INFO]: Done waiting for pending navigations. Status: ok
+[1710922501.566][INFO]: Waiting for pending navigations...
+[1710922501.567][INFO]: Done waiting for pending navigations. Status: ok
+[1710922501.567][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922503.582][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922503.583][INFO]: Waiting for pending navigations...
+[1710922503.583][INFO]: Done waiting for pending navigations. Status: ok
+[1710922503.591][INFO]: Waiting for pending navigations...
+[1710922503.592][INFO]: Done waiting for pending navigations. Status: ok
+[1710922503.592][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922503.593][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922503.593][INFO]: Waiting for pending navigations...
+[1710922503.594][INFO]: Done waiting for pending navigations. Status: ok
+[1710922503.615][INFO]: Waiting for pending navigations...
+[1710922503.617][INFO]: Done waiting for pending navigations. Status: ok
+[1710922503.617][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922505.625][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922505.625][INFO]: Waiting for pending navigations...
+[1710922505.625][INFO]: Done waiting for pending navigations. Status: ok
+[1710922505.633][INFO]: Waiting for pending navigations...
+[1710922505.634][INFO]: Done waiting for pending navigations. Status: ok
+[1710922505.634][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922505.635][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922505.635][INFO]: Waiting for pending navigations...
+[1710922505.636][INFO]: Done waiting for pending navigations. Status: ok
+[1710922505.656][INFO]: Waiting for pending navigations...
+[1710922505.680][INFO]: Done waiting for pending navigations. Status: ok
+[1710922505.680][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922507.699][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922507.699][INFO]: Waiting for pending navigations...
+[1710922507.700][INFO]: Done waiting for pending navigations. Status: ok
+[1710922507.708][INFO]: Waiting for pending navigations...
+[1710922507.709][INFO]: Done waiting for pending navigations. Status: ok
+[1710922507.709][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922507.710][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922507.710][INFO]: Waiting for pending navigations...
+[1710922507.711][INFO]: Done waiting for pending navigations. Status: ok
+[1710922507.734][INFO]: Waiting for pending navigations...
+[1710922507.736][INFO]: Done waiting for pending navigations. Status: ok
+[1710922507.736][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922509.745][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922509.745][INFO]: Waiting for pending navigations...
+[1710922509.746][INFO]: Done waiting for pending navigations. Status: ok
+[1710922509.754][INFO]: Waiting for pending navigations...
+[1710922509.755][INFO]: Done waiting for pending navigations. Status: ok
+[1710922509.755][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922509.757][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922509.757][INFO]: Waiting for pending navigations...
+[1710922509.758][INFO]: Done waiting for pending navigations. Status: ok
+[1710922509.779][INFO]: Waiting for pending navigations...
+[1710922509.781][INFO]: Done waiting for pending navigations. Status: ok
+[1710922509.781][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922511.789][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922511.789][INFO]: Waiting for pending navigations...
+[1710922511.789][INFO]: Done waiting for pending navigations. Status: ok
+[1710922511.796][INFO]: Waiting for pending navigations...
+[1710922511.797][INFO]: Done waiting for pending navigations. Status: ok
+[1710922511.797][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922511.799][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922511.799][INFO]: Waiting for pending navigations...
+[1710922511.800][INFO]: Done waiting for pending navigations. Status: ok
+[1710922511.820][INFO]: Waiting for pending navigations...
+[1710922511.822][INFO]: Done waiting for pending navigations. Status: ok
+[1710922511.822][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922513.831][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922513.831][INFO]: Waiting for pending navigations...
+[1710922513.833][INFO]: Done waiting for pending navigations. Status: ok
+[1710922513.841][INFO]: Waiting for pending navigations...
+[1710922513.842][INFO]: Done waiting for pending navigations. Status: ok
+[1710922513.842][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922513.844][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922513.844][INFO]: Waiting for pending navigations...
+[1710922513.844][INFO]: Done waiting for pending navigations. Status: ok
+[1710922513.867][INFO]: Waiting for pending navigations...
+[1710922513.870][INFO]: Done waiting for pending navigations. Status: ok
+[1710922513.870][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922515.874][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922515.874][INFO]: Waiting for pending navigations...
+[1710922515.875][INFO]: Done waiting for pending navigations. Status: ok
+[1710922515.882][INFO]: Waiting for pending navigations...
+[1710922515.884][INFO]: Done waiting for pending navigations. Status: ok
+[1710922515.884][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922515.902][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922515.902][INFO]: Waiting for pending navigations...
+[1710922515.917][INFO]: Done waiting for pending navigations. Status: ok
+[1710922515.946][INFO]: Waiting for pending navigations...
+[1710922515.948][INFO]: Done waiting for pending navigations. Status: ok
+[1710922515.948][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922517.959][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922517.959][INFO]: Waiting for pending navigations...
+[1710922517.960][INFO]: Done waiting for pending navigations. Status: ok
+[1710922517.970][INFO]: Waiting for pending navigations...
+[1710922517.971][INFO]: Done waiting for pending navigations. Status: ok
+[1710922517.971][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922517.973][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922517.973][INFO]: Waiting for pending navigations...
+[1710922517.973][INFO]: Done waiting for pending navigations. Status: ok
+[1710922517.995][INFO]: Waiting for pending navigations...
+[1710922517.997][INFO]: Done waiting for pending navigations. Status: ok
+[1710922517.997][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
+[1710922520.035][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"chat-items\"]"
+}
+[1710922520.035][INFO]: Waiting for pending navigations...
+[1710922520.041][INFO]: Done waiting for pending navigations. Status: ok
+[1710922520.054][INFO]: Waiting for pending navigations...
+[1710922520.058][INFO]: Done waiting for pending navigations. Status: ok
+[1710922520.058][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922520.060][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] COMMAND GetElementText {
+   "id": "D0688BBA02EDB8D471E1AC7591EA02D3_element_26"
+}
+[1710922520.060][INFO]: Waiting for pending navigations...
+[1710922520.061][INFO]: Done waiting for pending navigations. Status: ok
+[1710922520.087][INFO]: Waiting for pending navigations...
+[1710922520.088][INFO]: Done waiting for pending navigations. Status: ok
+[1710922520.088][INFO]: [dce5f0bd7f5f7b1fa23b9e515729c462] RESPONSE GetElementText "系统提示：哔哩哔哩直播内容及互动评论须严格遵守直播规范，严禁传播违法违规、低俗血暴、吸烟酗酒、造谣诈骗等不良有害信息。如有违规，平�..."
